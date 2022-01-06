@@ -2,10 +2,12 @@ body{
     margin: 0 auto;
     padding: 0;
     width: 1200px;
-    margin-bottom: 300px;
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'Yeseva One', cursive;
+}
+img{
+    width: 100%;
 }
 h1{
     font-family: 'Yeseva One';
@@ -81,10 +83,10 @@ span{
     float: right;
 }
 /* =============================
------- Banner Start Here -------
+------ Grid Start Here -------
 ============================= */
 .grid{
-    margin: 50px 0px;
+    margin: 100px 0px;
 }
 .grid h2 {
     text-align: center;
@@ -120,4 +122,32 @@ span{
     margin-left: 20px;
     padding: 20px;
     border-radius: 20px;
+}
+/* =============================
+------ Develop Start Here -------
+============================= */
+.develop{
+    display: flex;
+    margin: 100px 0px;
+}
+.develop-image{
+    width: 35%;
+}
+.develop-title{
+    width: 65%;
+    margin-left: 100px;
+}
+/* =============================
+------ Develop Start Here -------
+============================= */
+.community{
+    display: flex;
+    margin: 100px 0px;
+}
+.community-title{
+    width: 65%;
+    margin-right: 100px;
+}
+.community-image{
+    width: 35%;
 }
