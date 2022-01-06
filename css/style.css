@@ -1,6 +1,8 @@
-*{
+body{
     margin: 0 auto;
     padding: 0;
+    width: 1200px;
+    margin-bottom: 300px;
     font-family: 'Lobster', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'Yeseva One', cursive;
@@ -14,7 +16,7 @@ h1{
 h2{
     font-family: 'Poppins';
     line-height: 70px;
-    font-size: 48;
+    font-size: 48px;
     font-weight: 700;
 }
 h3{
@@ -55,9 +57,6 @@ span{
     font-weight: 500;
     border-radius: 5px;
 }
-body{
-    width: 1200px;
-}
 /* =============================
 ------ Banner Start Here -------
 ============================= */
@@ -80,4 +79,45 @@ body{
 .banner-image img {
     width: 80%;
     float: right;
+}
+/* =============================
+------ Banner Start Here -------
+============================= */
+.grid{
+    margin: 50px 0px;
+}
+.grid h2 {
+    text-align: center;
+    padding: 30px 0px;
+}
+.grid span{
+    font-family: 'Poppins';
+}
+.grid-items{
+    display: flex;
+}
+.grid-items img{
+    width: 40%;
+}
+.item-1 {
+    background-color: #4F9DA610;
+    width: 30%;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+ .item-2 {
+    background-color: #FF595910;
+    width: 30%;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+ .item-3 {
+    background-color: #FFF4D6; 
+    width: 30%;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 20px;
 }
