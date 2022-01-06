@@ -102,14 +102,14 @@ span{
     width: 40%;
 }
 .item-1 {
-    background-color: #4F9DA610;
+    background-color: #4F9DA615;
     width: 30%;
     margin-right: 20px;
     padding: 20px;
     border-radius: 20px;
 }
  .item-2 {
-    background-color: #FF595910;
+    background-color: #FF595915;
     width: 30%;
     margin-right: 20px;
     margin-left: 20px;
@@ -127,6 +127,9 @@ span{
 ------ Develop Start Here -------
 ============================= */
 .develop{
+    background-image: url('../images/shape-1.png');
+    background-repeat: no-repeat;
+    background-size: 20%;
     display: flex;
     margin: 100px 0px;
 }
@@ -138,7 +141,7 @@ span{
     margin-left: 100px;
 }
 /* =============================
------- Develop Start Here -------
+------ Community Start Here -------
 ============================= */
 .community{
     display: flex;
